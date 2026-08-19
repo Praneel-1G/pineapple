@@ -1,0 +1,82 @@
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# Pineapple generated verification artifacts
+# ==========================================
+
+runs/
+work/
+worker_active_run/
+
+# ==========================================
+# Simulation / EDA generated files
+# ==========================================
+
+*.vvp
+*.vcd
+*.fst
+*.log
+*.out
+*.trace
+trace.txt
+simulation.log
+compile.log
+
+# Icarus / simulator temporary files
+*.ivl
+*.dump
+
+# ==========================================
+# Python temporary files
+# ==========================================
+
+*.tmp
+*.temp
+
+# ==========================================
+# OS / Editor
+# ==========================================
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# ==========================================
+# Local secrets / environment
+# ==========================================
+
+.env
+.env.*
+*.key
+*.pem
+
+# ==========================================
+# Local model / AI artifacts
+# ==========================================
+
+models/
+checkpoints/
+adapters/
+*.gguf
+*.safetensors
+*.bin
+
+# ==========================================
+# Old experimental material
+# ==========================================
+
+archive_old/
